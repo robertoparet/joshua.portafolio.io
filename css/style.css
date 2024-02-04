@@ -86,24 +86,24 @@ html{
 }
 
 .parallax-slider .img-container.one {
-  background:url(../images/santiago_nocturno/DSC_2151.jpg);
+  background:url(../images/santiago_nocturno/DSC_2151.webp);
   background-position: center;
   background-size: cover;
 }
 
 .parallax-slider .img-container.two {
-  background:url(../images/paisajes/DSC_5336.jpg);
+  background:url(../images/paisajes/DSC_5336.webp);
   background-position: center;
   background-size: cover;
 }
 
 .parallax-slider .img-container.three {
-  background:url(../images/urbano/DSC_0653.jpg);
+  background:url(../images/urbano/DSC_0653.webp);
   background-position: center;
   background-size: cover;
 }
 .parallax-slider .img-container.four {
-  background:url(../images/variado/DSC_3428.jpg);
+  background:url(../images/variado/DSC_3428.webp);
   background-position: center;
   background-size: cover;
 }
