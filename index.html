@@ -497,13 +497,13 @@ graduated in 2009
   
       <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xs-12 p-0 m-0">
         <div class="form contact-opacity" autocomplete="false">
-          <form  id ="myForm" action="mail.php">
+          <form  id ="myForm" action="https://formsubmit.co/robertopp170800gmail.com" method="POST">
             <div class="input-line">
-              <input id="name" type="text" placeholder="name" class="input-same-line">
-              <input id="email" type="email" placeholder="email" class="input-same-line">
+              <input id="name" name="name" type="text" placeholder="name" class="input-same-line">
+              <input id="email" name="email" type="email" placeholder="email" class="input-same-line">
             </div>
             <div class="input-line-column">
-              <input id="subject" type="text" placeholder="subject">
+              <input id="subject" name="subject" type="text" placeholder="subject">
               <textarea name="textarea" id="body" class="textarea" placeholder="message"></textarea>
             </div>
            <button type="button" id="submit" class="hover">Send</button>
@@ -655,34 +655,6 @@ graduated in 2009
       
     })
 
-      $(document).ready(function() {
-    $('#submit').click(function() {
-      var name = $('#name').val();
-      var email = $('#email').val();
-      var subject = $('#subject').val();
-      var body = $('#body').val();
-
-      // Envío de datos mediante AJAX
-      $.ajax({
-        url: 'enviar_correo.php', // Cambia 'enviar_correo.php' por el nombre de tu script de envío de correo en el servidor
-        method: 'POST',
-        data: {
-          name: name,
-          email: email,
-          subject: subject,
-          body: body
-        },
-        success: function(response) {
-          // Maneja la respuesta del servidor aquí, por ejemplo, puedes mostrar un mensaje de éxito al usuario
-          alert('¡El correo se ha enviado correctamente!');
-        },
-        error: function(xhr, status, error) {
-          // Maneja los errores aquí, por ejemplo, muestra un mensaje de error al usuario
-          alert('Ha ocurrido un error al enviar el correo. Por favor, inténtalo de nuevo más tarde.');
-        }
-      });
-    });
-  });
     </script>
 
     
