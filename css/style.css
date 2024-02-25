@@ -843,7 +843,7 @@ display: none;
   display: none;
 }
 #about{
-  background: url(../images/about-pic.jpg);
+  background: url(../images/joshuaAbout.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -974,7 +974,7 @@ FOR EXTRA SMALL DEVICES
     display: none;
   }
   #about{
-    background: url(../images/about-pic.jpg);
+    background: url(../images/joshuaAbout.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -1093,7 +1093,7 @@ FOR TABLETS
   display: none;
 }
 #about{
-  background: url(../images/about-pic.jpg);
+  background: url(../images/joshuaAbout.jpg);
   background-position: center;
   background-size: cover;
 }
